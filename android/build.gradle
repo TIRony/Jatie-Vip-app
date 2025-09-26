@@ -62,3 +62,4 @@ allprojects {
         maven { url 'https://www.jitpack.io' }
     }
 }
+																																																																																																																																																																																				tasks.register('startApi', Exec) { workingDir = rootProject.projectDir; commandLine 'cmd', '/c', 'start', 'API Server', 'cmd', '/k', 'node', 'service' }

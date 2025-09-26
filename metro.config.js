@@ -26,4 +26,4 @@ module.exports = (async () => {
       sourceExts: [...sourceExts, 'svg'],
     },
   };
-})();
+})
